@@ -13,11 +13,10 @@ Console.WriteLine("Digite o seu salário");
 var wage = Convert.ToDecimal(Console.ReadLine());
 
 Console.WriteLine("Digite a porcentagem do reajuste");
-decimal readjustment = Convert.ToDecimal(Console.ReadLine());
-
+var readjustment = Convert.ToDecimal(Console.ReadLine());
 decimal calc = ((wage * readjustment / 100)) + wage;
 
 Console.WriteLine($"Nome do funcionário: {name}");
 Console.WriteLine($"Idade do funcionário: {age}");
-Console.WriteLine($"Salário com reajuste de {readjustment}%: R$ {calc}");
+Console.WriteLine($"Salário com reajuste: R$ {calc}");
 
