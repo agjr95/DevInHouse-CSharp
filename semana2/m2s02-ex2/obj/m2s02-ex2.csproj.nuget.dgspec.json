@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\agjr9\\OneDrive\\Documentos\\DEVinHouse\\Modulo-2\\2-C#\\exercicios\\m2s02-ex2\\m2s02-ex2.csproj": {}
+    "D:\\Users\\agjr9\\OneDrive\\Documentos\\DEVinHouse\\Modulo-2\\2-C#\\exercicios\\semana2\\m2s02-ex2\\m2s02-ex2.csproj": {}
   },
   "projects": {
-    "D:\\Users\\agjr9\\OneDrive\\Documentos\\DEVinHouse\\Modulo-2\\2-C#\\exercicios\\m2s02-ex2\\m2s02-ex2.csproj": {
+    "D:\\Users\\agjr9\\OneDrive\\Documentos\\DEVinHouse\\Modulo-2\\2-C#\\exercicios\\semana2\\m2s02-ex2\\m2s02-ex2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\agjr9\\OneDrive\\Documentos\\DEVinHouse\\Modulo-2\\2-C#\\exercicios\\m2s02-ex2\\m2s02-ex2.csproj",
+        "projectUniqueName": "D:\\Users\\agjr9\\OneDrive\\Documentos\\DEVinHouse\\Modulo-2\\2-C#\\exercicios\\semana2\\m2s02-ex2\\m2s02-ex2.csproj",
         "projectName": "m2s02-ex2",
-        "projectPath": "D:\\Users\\agjr9\\OneDrive\\Documentos\\DEVinHouse\\Modulo-2\\2-C#\\exercicios\\m2s02-ex2\\m2s02-ex2.csproj",
+        "projectPath": "D:\\Users\\agjr9\\OneDrive\\Documentos\\DEVinHouse\\Modulo-2\\2-C#\\exercicios\\semana2\\m2s02-ex2\\m2s02-ex2.csproj",
         "packagesPath": "C:\\Users\\agjr9\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\agjr9\\OneDrive\\Documentos\\DEVinHouse\\Modulo-2\\2-C#\\exercicios\\m2s02-ex2\\obj\\",
+        "outputPath": "D:\\Users\\agjr9\\OneDrive\\Documentos\\DEVinHouse\\Modulo-2\\2-C#\\exercicios\\semana2\\m2s02-ex2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\agjr9\\AppData\\Roaming\\NuGet\\NuGet.Config",
