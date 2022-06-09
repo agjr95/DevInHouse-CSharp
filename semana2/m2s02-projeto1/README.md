@@ -2,7 +2,7 @@
 
 ![](m2s02-projeto1-capa.png)
 
-# Criar uma aplicação de console para simular de maneira simples uma calculadora.
+### Criar uma aplicação de console para simular de maneira simples uma calculadora.
 
 **Entrada**: Receber dois valores, Informação de Operação
 **Saída**: Baseado nos valores e a operação mostrar o valor
