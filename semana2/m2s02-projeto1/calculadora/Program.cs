@@ -7,28 +7,22 @@ namespace calculadora
     {
       Operacoes calc = new Operacoes();
       Console.Write("\n\n ---- Menu Calculadora ----\n\n");
-      foreach (int i in Enum.GetValues(typeof(Menu)))
-      {
-        Console.WriteLine($"{i} - {Enum.GetName(typeof(Menu), i)}\n\n");
-      }
+
+      MostrarMenu.Mostrar();
+
       Console.Write("Tecle o número correspondente a ação desejada\n\n");
       int opcaoMenu = int.Parse(Console.ReadLine());
       Console.WriteLine($"\n\n ----Opção escolhida: {opcaoMenu} ----");
 
-      while (opcaoMenu < 0 || opcaoMenu > 4)
+      while (opcaoMenu < 1 || opcaoMenu > 5)
       {
         Console.WriteLine($"\n\n --- ERROR: {opcaoMenu} não é uma opção válida ---\n\n\n\n");
         Console.Write("Tecle o número correspondente a ação desejada\n\n");
-        foreach (int i in Enum.GetValues(typeof(Menu)))
-        {
-          Console.WriteLine($"{i} - {Enum.GetName(typeof(Menu), i)}\n\n");
-        }
-        Console.Write("Tecle o número correspondente a ação desejada\n\n");
-        opcaoMenu = int.Parse(Console.ReadLine());
-        Console.WriteLine($"\n\n ----Opção escolhida: {opcaoMenu}\n\n ----");
+        MostrarMenu.Mostrar();
+
       }
 
-      while (opcaoMenu != 0)
+      while (opcaoMenu != 5)
       {
         Console.WriteLine("\n\nDigite o primeiro número");
         double num1 = double.Parse(Console.ReadLine());
@@ -36,10 +30,9 @@ namespace calculadora
         double num2 = double.Parse(Console.ReadLine());
 
         Console.WriteLine($"\n\n////// Resultado : {calc.Calcular(opcaoMenu, num1, num2)} //////\n\n\n\n");
-        foreach (int i in Enum.GetValues(typeof(Menu)))
-        {
-          Console.WriteLine($"{i} - {Enum.GetName(typeof(Menu), i)}\n\n");
-        }
+
+        MostrarMenu.Mostrar();
+
         Console.Write("Tecle o número correspondente a ação desejada\n\n");
         opcaoMenu = int.Parse(Console.ReadLine());
         Console.WriteLine($"\n\n ----Opção escolhida: {opcaoMenu} ----\n\n");
