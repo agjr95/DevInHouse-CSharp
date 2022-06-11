@@ -14,8 +14,12 @@ Receber informação de **operação e informar dois números**
 - Receber dois valores
 - Enquanto o caractere da opção **SAIR** não for selecionada deve continuar a escolhe da operação após o resultado
 
+### **RESOLUÇÃO** -> Operacoes.cs
+
 ## [M2S02] Ex 5 - Processamento e Resultado da Operação
 
 Criar **métodos** para cada operação, recebendo por parâmetro os dois valores e retornando o **resultado dessa operação**
 
 - deve mostrar o resultado do processamento baseado nas entradas e a operação informada
+
+### **RESOLUÇÃO** -> Operacoes.cs / Program.cs

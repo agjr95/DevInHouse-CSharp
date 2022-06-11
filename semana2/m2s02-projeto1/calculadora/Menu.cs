@@ -1,14 +1,14 @@
 namespace calculadora
 {
 
-  public enum OpcoesMenu
+  public enum Menu
   {
+    Sair,
+    Adicao,
+    Subtracao,
+    Multiplicacao,
+    Divisao
 
-    Adição,
-    Subtração,
-    Multiplicação,
-    Divisão,
-    Sair
   }
 
 
