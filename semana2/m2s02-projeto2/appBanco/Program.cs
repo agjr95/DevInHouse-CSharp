@@ -3,9 +3,10 @@ Console.WriteLine("\n---- Bem vindo(a) ao DevInBank! -----\n\n");
 
 ContaCorrente conta1 = new ContaCorrente();
 conta1.saldo = 0;
-
+Console.Clear();
 MenuOpcoes opcaoEscolhida = Menu.ExibirMenu();
-Console.WriteLine($"\n Opção escolhida: {opcaoEscolhida}\n\n");
+Console.Clear();
+Console.WriteLine($"\n ---- Opção escolhida: {opcaoEscolhida} ----\n\n");
 
 while (opcaoEscolhida != MenuOpcoes.Sair)
 {
@@ -16,7 +17,8 @@ while (opcaoEscolhida != MenuOpcoes.Sair)
     Console.WriteLine("\n Desculpe, algo deu errado. A opção digitada é inválida!\n\n");
     Console.ForegroundColor = ConsoleColor.White;
     opcaoEscolhida = Menu.ExibirMenu();
-    Console.WriteLine($"\n Opção escolhida: {opcaoEscolhida}\n\n");
+    Console.Clear();
+    Console.WriteLine($"\n ---- Opção escolhida: {opcaoEscolhida} ----\n\n");
   }
   if (validador == true)
   {
@@ -24,6 +26,7 @@ while (opcaoEscolhida != MenuOpcoes.Sair)
     {
       case MenuOpcoes.Saldo:
         conta1.ConsultarSaldo();
+
         break;
       case MenuOpcoes.Deposito:
         conta1.Depositar();
@@ -32,6 +35,7 @@ while (opcaoEscolhida != MenuOpcoes.Sair)
         conta1.Sacar();
         break;
       case MenuOpcoes.Extrato:
+        conta1.ConsultarExtrato();
         break;
       case MenuOpcoes.Sair:
         return;
@@ -40,5 +44,6 @@ while (opcaoEscolhida != MenuOpcoes.Sair)
     Console.WriteLine($"\n Opção escolhida: {opcaoEscolhida}\n\n");
   }
 }
+Console.Clear();
 
 

@@ -9,7 +9,7 @@ namespace appBanco
     Extrato,
     Sair
   }
-  public class Menu
+  public static class Menu
   {
 
     public static MenuOpcoes ExibirMenu()
@@ -42,6 +42,15 @@ namespace appBanco
       {
         return true;
       }
+    }
+
+    public static void VoltarParaMenu()
+    {
+      Console.ForegroundColor = ConsoleColor.Yellow;
+      Console.WriteLine("Tecle [ENTER] para voltar para o Menu");
+      Console.ForegroundColor = ConsoleColor.White;
+      Console.ReadLine();
+      Console.Clear();
     }
   }
 }

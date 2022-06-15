@@ -29,3 +29,5 @@ Crie método para saque - adicionar e atualizar saldo
 ## [M2S02] Ex 10 - Crie histórico de operações
 
 Crie método de **histórico de operação** - para armazenar em uma lista as operações e valores da transação (como se fosse um extrato bancário)
+
+### **RESOLUÇÃO** -> ContaCorrente.cs > ConsultarExtrato()
