@@ -8,22 +8,16 @@ namespace MedaBots.Models
 {
     public class BotLeve : Bot
     {
-        public BotLeve(string nome ): base( nome )
-        {
+        public BotLeve( string nome ): base( nome ) {}
 
-        }
         public override int CausarDano()
         {
 
-            if (Status == EStatus.Ligado)
-            {
-                return 10;
-            }
-            else
-            {
-                Console.WriteLine("Medabot is sleeping");
-                return 0;
-            }
+            if (Status == EStatus.Ligado) return 10;
+            
+            Console.WriteLine("Medabot is sleeping");
+            return 0;
+            
         }
     }
 }

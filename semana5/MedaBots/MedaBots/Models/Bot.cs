@@ -3,30 +3,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MedaBots.Interface;
 using MedaBots.Enums;
 namespace MedaBots.Models
 {
-    public abstract class Bot
+    public abstract class Bot : IBot
     {
+        public string Nome { get; private set; }
+        public int Hp { get; protected set; }
+        public EStatus Status { get; protected set; }
         public Bot(string nome)
         {
             Nome = nome;
             Status = EStatus.Desligado;
             Hp = 100;
         }
-        public string Nome { get; private set; }
-        public int Hp { get; protected set; }
-        public EStatus Status { get; protected set; }
 
-        public EStatus Iniciar()
+        public void Iniciar()
         {
             Status = EStatus.Ligado;
-            return Status;
         }
-        public EStatus Parar()
+        public void Parar()
         {
             Status = EStatus.Desligado;
-            return Status;
         }
 
         public abstract int CausarDano();

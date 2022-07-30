@@ -8,10 +8,7 @@ namespace MedaBots.Models
 {
     public class BotPesado : Bot
     {
-        public BotPesado(string nome) : base(nome)
-        {
-
-        }
+        public BotPesado( string nome ) : base( nome ) {}
         public override int CausarDano()
         {
             if(Status == EStatus.Aguardando)
